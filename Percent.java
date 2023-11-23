@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Percent {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Your Marks Out of 100 Below :-");

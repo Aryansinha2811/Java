@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class UserName {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         System.out.println("What is Your Name ??....");
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
