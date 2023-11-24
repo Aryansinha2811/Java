@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class stringQuestions {
+public class StringQuestions {
     public static void main(String[] args) {
         
         // Problem 1 :- Convert a UpperCase Sentence To LowerCase 
@@ -17,5 +17,6 @@ public class stringQuestions {
         System.out.println("Replacing Blank Space by a UnderScore (_) ");
         st = st.replace(" " , "_");
         System.out.println(st);
+        sc.close();
     }
 }

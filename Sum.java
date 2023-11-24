@@ -15,5 +15,6 @@ public class Sum {
 
         System.out.print("The Sum of Two Numbers Given by You is :-- ");
         System.out.println(sum);
+        ar.close();
     }
 }

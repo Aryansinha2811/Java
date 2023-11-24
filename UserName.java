@@ -10,5 +10,6 @@ public class UserName {
         System.out.println("What is Your Age ?....");
         int age = sc.nextInt();
         System.out.println("Age Entered by you is " + age);
+        sc.close();
     }
 }
