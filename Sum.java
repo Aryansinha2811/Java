@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Sum {
-    public static void main(string[] args) {
+    public static void main(String[] args) {
         Scanner ar = new Scanner(System.in);
 
         System.out.println("Enter a New Number :-");

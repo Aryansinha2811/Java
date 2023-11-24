@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Percent {
-    public static void main(string[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Your Marks Out of 100 Below :-");
@@ -17,6 +17,8 @@ public class Percent {
 
         System.out.print("Social Studies :-");
         float d = sc.nextFloat();
+
+        sc.close();
 
         float sum = a + b + c + d ;
         System.out.println("The Sum of These 4 Subjects are :- " + sum);
