@@ -1,7 +1,7 @@
 public class ArrayQuestion2 {
     public static void main(String[] args) {
         // Problem 1 :--- Reverse an Array 
-
+        System.out.println("Problem 1 Solution ");
         int [] arr = { 2,3,4,5,6,7,8 };
         System.out.println("Current Array is :--");
         for (int i : arr) {
@@ -24,6 +24,25 @@ public class ArrayQuestion2 {
         for (int result  : arr) {
             System.out.print(result + " ");
         }
+        System.out.println("\n ");
+
+        // Problem 2 . Find the maximum in the Array ------
+        System.out.println("Problem 2 Solution ");
+        System.out.println("Current Array is :---");
+        int [] array = {99, 48 , 67 , 106 , 11} ;
+        for (int i : array) {
+            System.out.print(i + " ");
+        }
+        int max = 0 ;
+
+        for (int  e: array) {
+            if (e>max) {
+                max=e;
+            }
+        }
+
+
+        System.out.println("The Maximum Value of Array is : " + max);
     }
 }
 
