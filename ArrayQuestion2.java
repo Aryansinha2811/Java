@@ -33,6 +33,7 @@ public class ArrayQuestion2 {
         for (int i : array) {
             System.out.print(i + " ");
         }
+        System.err.println("\n");
         int max = 0 ;
 
         for (int  e: array) {

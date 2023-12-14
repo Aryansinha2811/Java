@@ -9,7 +9,7 @@ public class QuestionSet1 {
         40% & at least 33% in Each Subject to Pass . Assume there is 3 Subjects , Take Input from user 
         to find Out !!.. */
 
-        byte m1 , m2 , m3 ;
+        byte m1, m2, m3;
         System.out.println("Enter Your Marks in the Following Subjects :-");
 
         System.out.println("Physics :-");
@@ -21,15 +21,14 @@ public class QuestionSet1 {
         System.out.println("Mathematics :-");
         m3 = sc.nextByte();
 
-        float avg = (m1 + m2 + m3) /3.0f ;
+        float avg = (m1 + m2 + m3) / 3.0f;
 
         System.out.print("You Have Scored a Total of :-- ");
         System.out.println(avg);
 
         if (avg >= 33 && m1 >= 33 && m2 >= 33 && m3 >= 33) {
             System.out.println("Congratulations !!... You've Passed !!...");
-        }
-        else{
+        } else {
             System.out.println("You've Failed !!... Try Hard Next Time .");
         }
 
