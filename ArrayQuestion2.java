@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class ArrayQuestion2 {
     public static void main(String[] args) {
         // Problem 1 :--- Reverse an Array 
@@ -45,5 +47,6 @@ public class ArrayQuestion2 {
 
         System.out.println("The Maximum Value of Array is : " + max);
     }
+
 }
 
