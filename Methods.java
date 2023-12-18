@@ -1,22 +1,38 @@
 public class Methods {
 
-        static int add(int a, int b)
+        static int Add(int a, int b)
         {
             int c = a + b;
             return c;
         }
 
-        static int multiply(int a , int b){
+        static int Multiply(int a , int b){
             int c = a * b ;
             return c;
         }
+
+        static int Logic(int a , int b){
+            int c;
+            if (a<b) {
+             c = b - a ;
+            }
+            else{
+                c = a - b;
+            }
+            return c ;
+        }
     public static void main(String[] args) {
         int x = 10 , y = 20 ;
-
-        int z = add(x, y);
+        System.out.println("Calling the Add Method :---");
+        int z = Add(x, y);
         System.out.println(z);
 
-        int m = multiply(y, x);
+        System.out.println("Calling the Multiply Method :---");
+        int m = Multiply(y, x);
         System.out.println(m);
+
+        System.out.println("Calling the Logic Method :---");
+        int logic = Logic(m, z);
+        System.out.println(logic);
     }
 }
